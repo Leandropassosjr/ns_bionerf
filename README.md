@@ -53,3 +53,14 @@ This step is responsible for adding contextual information to BioNeRF. Two new e
 # Results
 
 For results, view the [paper page](https://arxiv.org/pdf/2402.07310)!
+
+
+## Citation
+```
+@article{passos2024bionerf,
+  title={BioNeRF: Biologically Plausible Neural Radiance Fields for View Synthesis},
+  author={Passos, Leandro A and Rodrigues, Douglas and Jodas, Danilo and Costa, Kelton AP and Papa, Jo{\~a}o Paulo},
+  journal={arXiv preprint arXiv:2402.07310},
+  year={2024}
+}
+```
