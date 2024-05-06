@@ -1,0 +1,11 @@
+[project]
+name = "bionerf"
+version = "1.0"
+
+dependencies = ["nerfstudio >= 0.3.0"] 
+
+[tool.setuptools.packages.find]
+include = ["bionerf*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+bionerf = 'bionerf.bionerf_config:bionerf_method'
