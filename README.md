@@ -1,5 +1,6 @@
 # BioNeRF: Biologically Plausible Neural Radiance Fields
 This is the [NeRFStudio](https://docs.nerf.studio/)-based implementation for [BioNeRF](https://github.com/Leandropassosjr/BioNeRF).
+![](https://github.com/Leandropassosjr/BioNeRF/blob/dev/images/gifs.gif)
 
 
 # Installation
