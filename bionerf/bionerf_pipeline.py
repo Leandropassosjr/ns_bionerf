@@ -29,9 +29,9 @@ class BioNeRFPipelineConfig(VanillaPipelineConfig):
 
     _target: Type = field(default_factory=lambda: BioNeRFPipeline)
     """target class to instantiate"""
-    datamanager: DataManagerConfig = BioNeRFDataManagerConfig()
+    datamanager: DataManagerConfig = field(default_factory=BioNeRFDataManagerConfig)
     """specifies the datamanager config"""
-    model: ModelConfig = BioNeRFModelConfig()
+    model: ModelConfig = field(default_factory=BioNeRFModelConfig)
     """specifies the model config"""
 
 
